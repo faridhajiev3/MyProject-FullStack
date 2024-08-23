@@ -1,0 +1,136 @@
+.node {
+    background: url("https://sun-themes.com/html/fooday/assets/images/background/pagetitle-product.jpg") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 140px 0;
+    gap: 10px;
+}
+
+.node h2 {
+    color: #fff;
+    font-family: "Rancho", sans-serif;
+    font-size: 64px;
+    text-transform: uppercase;
+}
+
+.node p {
+    color: #d2d2d2;
+    font-size: 16px;
+}
+.port3{
+    width: 80%;
+    margin: 0 auto;
+}
+.product {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin: 30px;
+}
+
+.product img {
+    width: 555px;
+    height: 312px;
+}
+
+.plate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bad {
+    font-family: 'Rancho', cursive;
+    font-size: 45px;
+    text-transform: capitalize;
+    color: #29272e;
+}
+
+.cheefname {
+    display: flex;
+    margin-top: 5px;
+    gap: 30px;
+}
+
+.token {
+    background-color: #f15f2a;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    color: #ffffff;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    border: 3px solid #fff;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.slider-container{
+    margin: 30px 0;
+    
+}
+.type1 {
+    display: flex;
+    gap: 40px;
+}
+.type2 {
+    display: flex;
+    gap: 74px;
+    margin: 10px 0 20px 0;
+}
+.calcul {
+    width: 180px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border: #d2d2d2 solid 2px;
+    justify-content: center;
+}
+
+.output {
+    display: flex;
+    gap: 20px;
+}
+
+.greens {
+    width: 500px;
+    font-size: 14px;
+    color: #616f7d;
+    margin: 20px 0;
+    line-height: 1.5;
+}
+
+.des {
+    background-color: #d2d2d2;
+    padding: 3px;
+}
+
+.inc {
+    background-color: #d2d2d2;
+    padding: 3px;
+    margin-top: 5px;
+}
+
+.tocard {
+    background-color: #F15F2A;
+    border: none;
+    color: #fff;
+    height: 45px;
+    width: 145px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.slick-next{
+    background-color: #29272e;
+    transition: 0.1s;
+}
+.slick-next:hover{
+    background-color: #29272e !important;
+}
+.productimg2{
+    width: 396px;
+    height: 244px;
+}

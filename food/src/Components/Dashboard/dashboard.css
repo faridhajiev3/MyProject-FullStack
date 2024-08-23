@@ -1,0 +1,155 @@
+.dash {
+    background-color: #F5F7FA;
+}
+
+.infoo {
+    display: flex;
+    /* width: 255px; */
+    padding: 15px 30px;
+    /* height: 120px; */
+    background-color: #fff;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    gap: 20px;
+}
+
+.important1 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+
+}
+
+.myBalance {
+    font-weight: 400;
+    font-size: 16px;
+    color: #718EBF;
+    line-height: 2;
+}
+
+.numbere {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.2;
+    color: #232323;
+}
+
+.boks-boks {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px 20px 80px;
+}
+
+.grafik2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.grafik1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    height: 350px;
+    /* padding: 30px; */
+    background: #fff;
+    border-radius: 25px;
+}
+
+.pie {
+    width: 300px;
+    height: 350px;
+    /* padding: 30px; */
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 25px;
+}
+
+.loansInfo {
+    /* max-height: 625px; */
+    background-color: #fff;
+    border-radius: 25px;
+    font-family: "Inter", sans-serif;
+    min-width: 100%;
+    padding: 30px 20px;
+}
+
+.loansTd {
+    width: 14%;
+    text-align: center;
+}
+
+.tr1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    font-weight: 500;
+    font-size: 14px;
+    color: #718EBF;
+    align-items: center;
+}
+
+.tr2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 14px 0;
+    font-weight: 400;
+    font-size: 14px;
+    color: #232323;
+}
+
+.btns {
+    color: #1814F3;
+    border: solid 2px #1814F3;
+    border-radius: 50px;
+    padding: 6px 0;
+}
+
+.r-d {
+    color: #FE5C73;
+}
+
+.tr5 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    font-weight: 500;
+    font-size: 16px;
+    color: #718EBF;
+}
+
+.tr6 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 14px 0;
+    font-weight: 400;
+    font-size: 16px;
+    color: #232323;
+}
+
+.table2 {
+    width: 445px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 25px;
+    font-family: "Inter", sans-serif;
+}
+
+.stockTd {
+    width: 25%;
+    text-align: center;
+}

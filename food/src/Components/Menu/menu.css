@@ -1,0 +1,128 @@
+.coffe {
+    background: url("https://sun-themes.com/html/fooday/assets/images/background/pagetitle-menu.jpg") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 140px 0;
+    gap: 10px;
+}
+
+.coffe h2 {
+    color: #fff;
+    font-family: "Rancho", sans-serif;
+    font-size: 64px;
+    text-transform: uppercase;
+}
+
+.coffe p {
+    color: #d2d2d2;
+    font-size: 16px;
+}
+
+.btncenter {
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+
+.load {
+    padding: 12px 36px;
+    background-color: #fff;
+    border: 1px solid #f15f2a;
+    text-transform: uppercase;
+    border-radius: 25px;
+    color: #f15f2a;
+}
+
+.daily {
+    background: url("https://sun-themes.com/html/fooday/assets/images/background/bg1_0.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+    padding: 60px 0;
+    gap: 70px;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.daily img {
+    width: 714px;
+    height: 471px;
+}
+
+.choise {
+    font-weight: 500;
+    font-size: 16px;
+    color: #f15f2a;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.cial {
+    font-size: 50px;
+    font-family: 'Rancho', cursive;
+    color: #fff;
+}
+
+.slider {
+    overflow: hidden;
+    height: 300px;
+    width: 100%;
+    position: relative;
+}
+
+.slider-inner {
+    transition: transform 1s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.aute img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.aute {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.velit {
+    font-size: 13px;
+}
+
+.alt {
+    display: flex;
+    color: #fff;
+    font-size: 45px;
+    margin: 15px 0;
+    gap: 10px;
+}
+
+.alt div {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1110px) {
+    .daily {
+        gap: 0;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .sunny {
+        display: none;
+    }
+
+    .daily {
+        justify-content: center;
+    }
+    .aute{
+        gap: 80px;
+    }
+}

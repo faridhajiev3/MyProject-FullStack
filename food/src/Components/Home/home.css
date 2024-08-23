@@ -1,0 +1,439 @@
+body {
+    overflow-x: hidden;
+}
+
+.backeat {
+    background: url("https://sun-themes.com/html/fooday/assets/images/slider/shop-slider.jpg");
+    background-size: cover;
+    /* height: 100vh; */
+}
+
+.backeatt {
+    background: url("https://sun-themes.com/html/fooday/assets/images/slider/shop-slider2.jpg");
+    background-size: cover;
+    /* height: 100vh; */
+}
+
+.slick-prev,
+.slick-next {
+    display: none !important;
+}
+
+.page {
+    width: 75%;
+    margin: 0 auto;
+    padding: 160px 0;
+
+}
+
+.backeat .fadeinup {
+    font-family: 'Rancho', cursive;
+    font-size: 60px;
+    font-weight: 100;
+    text-transform: capitalize;
+    color: #29272e;
+    width: 500px;
+}
+
+.backeatt .fadeinup {
+    font-family: 'Rancho', cursive;
+    font-size: 60px;
+    font-weight: 100;
+    text-transform: capitalize;
+    color: #29272e;
+    width: 500px;
+}
+
+.backeat .enjoy {
+    text-transform: capitalize;
+    font-size: 26px;
+    color: #424242;
+    padding: 8px 0 45px 0;
+}
+
+.backeatt .enjoy {
+    text-transform: capitalize;
+    font-size: 26px;
+    color: #424242;
+    padding: 8px 0 45px 0;
+}
+
+.btn {
+    padding: 10px 35px;
+    background-color: #fff;
+    border: 1px solid #f15f2a;
+    text-transform: uppercase;
+    border-radius: 25px;
+    display: inline-block;
+    color: #f15f2a;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.bag {
+    width: 130px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    border: 1px dashed #f15f2a;
+    border-radius: 50%;
+    color: #f15f2a;
+}
+
+.services-icon {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 90px 0;
+}
+
+.services-icon p {
+    font-size: 30px;
+    font-family: 'Rancho', cursive;
+    margin-top: 15px;
+}
+
+/* tasty */
+.popular {
+    font-weight: 500;
+    font-size: 16px;
+    color: #f15f2a;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.good {
+    font-family: 'Rancho', cursive;
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #29272e;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.port {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.productImage {
+    width: 260px;
+    height: 180px;
+    transition: 0.3s;
+}
+
+.productImage:hover {
+    filter: brightness(70%);
+}
+
+
+.popular-Product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pro {
+    /* text-align: center; */
+    margin: 20px 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: relative;
+    transition: 0.3s;
+    border: solid 3px #fff;
+}
+
+.pro:hover {
+    border-bottom: solid 3px #f15f2a;
+}
+
+.content {
+    padding: 25px 30px 15px;
+    background-color: #fff;
+}
+
+.spoiler {
+    display: flex;
+    justify-content: space-between;
+    width: 190px;
+    padding: 8px 0;
+}
+
+.productName {
+    font-size: 30px;
+    font-family: "Rancho", sans-serif;
+    text-transform: capitalize;
+}
+
+.line2 {
+    width: 1px;
+    height: 16px;
+    background-color: #ccc;
+}
+
+.productPrice {
+    position: absolute;
+    top: 160px;
+    right: 15px;
+    background-color: #f15f2a;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    color: #ffffff;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    border: 3px solid #fff;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.auterName {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 400;
+    color: #616f7d;
+    font-size: 14px;
+}
+
+.sourname {
+    color: #f15f2a;
+}
+
+/* davam */
+.dishes {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.mistake {
+    width: 555px;
+    height: 263px;
+}
+
+.honey {
+    position: relative;
+    color: #fff;
+}
+
+.cake {
+    position: absolute;
+    top: 70px;
+    left: 260px;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.new {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 13px;
+    position: absolute;
+    top: 120px;
+    left: 300px;
+}
+
+.mistakeBtn {
+    padding: 14px 36px;
+    background-color: #f15f2a;
+    border: 1px solid #f15f2a;
+    text-transform: uppercase;
+    border-radius: 25px;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #fff;
+    position: absolute;
+    top: 165px;
+    left: 300px;
+}
+
+
+/* lunch */
+.productimg {
+    width: 353px;
+    height: 244px;
+    transition: 0.3s;
+}
+
+.productimg:hover {
+    filter: brightness(70%);
+}
+
+.productPrices {
+    position: absolute;
+    top: 210px;
+    right: 15px;
+    background-color: #f15f2a;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    color: #ffffff;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    border: 3px solid #fff;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.backimages {
+    background: url("https://sun-themes.com/html/fooday/assets/images/background/shop-banner-bg2.jpg");
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 0;
+    margin: 10px 0;
+}
+
+.event {
+    font-size: 30px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.event span {
+    font-size: 40px;
+    color: #f15f2a;
+}
+
+.des-des {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 10px 0 40px 0;
+}
+
+.backimages button {
+    background: transparent;
+    border-color: #fff;
+    color: #fff;
+    outline: none;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 16px;
+    padding: 12px 30px;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 900px) {
+    .dishes {
+        flex-direction: column;
+    }
+
+    .page {
+        padding: 120px 0;
+    }
+
+    .backeat .fadeinup {
+        font-size: 35px;
+    }
+
+    .backeat .enjoy {
+        font-size: 18px;
+    }
+
+    .backeatt .fadeinup {
+        font-size: 35px;
+    }
+
+    .backeatt .enjoy {
+        font-size: 18px;
+    }
+
+    .port {
+        width: 90%;
+    }
+
+    .mistake {
+        width: 100%;
+    }
+
+    .event {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .port {
+        width: 100%;
+    }
+
+    .page {
+        padding: 80px 0;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .page {
+        padding: 50px 0;
+    }
+
+    .event {
+        font-size: 16px;
+    }
+
+    .event span {
+        font-size: 30px;
+        color: #f15f2a;
+    }
+
+    .backeat .fadeinup {
+        font-size: 25px;
+    }
+
+    .backeat .enjoy {
+        font-size: 10px;
+    }
+
+    .backeatt .fadeinup {
+        font-size: 25px;
+    }
+
+    .backeatt .enjoy {
+        font-size: 10px;
+    }
+
+    .popular-Product {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .page {
+        padding: 25px 0;
+    }
+
+    .backeat .fadeinup {
+        font-size: 20px;
+    }
+
+    .backeat .enjoy {
+        font-size: 8px;
+    }
+
+    .backeatt .fadeinup {
+        font-size: 20px;
+    }
+
+    .backeatt .enjoy {
+        font-size: 8px;
+    }
+
+    .des-des {
+        font-size: 8px;
+        padding: 10px 0 20px 0;
+        text-align: center;
+    }
+}

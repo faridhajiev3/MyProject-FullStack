@@ -1,0 +1,35 @@
+.reser {
+    background: url("https://sun-themes.com/html/fooday/assets/images/background/pagetitle-reservation.jpg") center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 140px 0;
+    gap: 10px;
+}
+
+.reser h2 {
+    color: #fff;
+    font-family: "Rancho", sans-serif;
+    font-size: 64px;
+    text-transform: uppercase;
+}
+
+.reser p {
+    color: #d2d2d2;
+    font-size: 16px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+    .reser p {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .reser p {
+        font-size: 14px;
+    }
+}

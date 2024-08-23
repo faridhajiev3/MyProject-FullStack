@@ -1,0 +1,59 @@
+.view {
+    background: url("https://sun-themes.com/html/fooday/assets/images/background/pagetitle-product.jpg") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 140px 0;
+    gap: 10px;
+}
+
+.view h2 {
+    color: #fff;
+    font-family: "Rancho", sans-serif;
+    font-size: 64px;
+    text-transform: uppercase;
+}
+
+.view p {
+    color: #d2d2d2;
+    font-size: 16px;
+}
+
+
+td img {
+    width: 180px;
+    height: auto;
+}
+
+.dec {
+    padding: 70px 12px 70px 12px !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 620px) {
+    td img {
+        width: 100px;
+    }
+
+    table th,
+    table td {
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (max-width: 490px) {
+    td img {
+        width: 80px;
+    }
+
+    table th,
+    table td {
+        font-size: 10px;
+    }
+
+}

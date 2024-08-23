@@ -1,0 +1,74 @@
+.dashboard-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.product-form {
+    width: 80%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px;
+}
+
+.product-form h2 {
+    margin-bottom: 20px;
+}
+
+.caps {
+    font-size: 16px;
+    color: #757575;
+}
+
+.product-form input,
+.product-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.product-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f15f2a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.table1 {
+    margin: 20px 0;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table1 th,
+.table1 td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.table1 th {
+    background-color: #f4f4f4;
+}
+
+/* @media only screen and (max-width: 620px) {
+
+    table th,
+    table td {
+        font-size: 12px;
+    }
+
+} */

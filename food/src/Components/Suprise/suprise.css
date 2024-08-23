@@ -1,0 +1,52 @@
+.subcribe {
+    background-color: #fcfcfc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subcribe h3 {
+    font-family: "Rancho", sans-serif;
+    font-size: 40px;
+    color: #29272e;
+    font-weight: 500;
+}
+
+.subcribe p {
+    color: #616f7d;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.subcribe input {
+    background-color: #f4f4f4;
+    padding: 10px 50px 10px 30px;
+    border: none;
+}
+
+.place {
+    display: flex;
+}
+
+.sends {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    font-size: 20px;
+    color: #f15f2a;
+}
+
+.flowors {
+    width: 230px;
+    height: 202px;
+}
+
+@media only screen and (max-width: 700px) {
+    .subcribe {
+        flex-direction: column;
+    }
+}
